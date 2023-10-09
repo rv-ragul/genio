@@ -41,16 +41,16 @@ li{
     line-height: 1.7;
 }
 .navbar nav img{
-    margin-left: 20px;
-    width: 100px;
+    margin-left: 10px;
+    width: 60px;
 }
 .links{
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
 }
 .links a{
-    padding: 0 20px;
+    padding: 0 10px;
     text-decoration: none;
     /* color: blue; */
     color: rgb(163, 94, 163);
@@ -64,6 +64,7 @@ li{
 .section{
     /* max-width: 100vw;
     width: 80%; */
+    
     margin: 50px 20px;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ li{
     justify-content: center;
 }
 .image img{
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     /* width: 100%; */
 }
