@@ -133,6 +133,10 @@ li{
     flex-direction: column;
 }
 @media (min-width: 600px) {
+    .navbar nav img{
+        margin-left: 10px;
+        width: 120px;
+    }
     .image img{
         width: 500px;
     }

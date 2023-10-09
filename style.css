@@ -68,7 +68,7 @@ li{
     justify-content: center;
 }
 .intro img{
-    /* margin-right: 10px; */
+    margin-right: 20px;
     width: 80px;
 }
 .intro h1{
@@ -227,6 +227,10 @@ li{
     /* align-items: center; */
 }
 @media (min-width: 610px) {
+    .navbar nav img{
+        margin-left: 10px;
+        width: 120px;
+    }
     .intro h1{
         font-size: 30px;
     }
