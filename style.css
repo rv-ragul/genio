@@ -58,6 +58,10 @@ li{
     margin: 15px;
     background-color: rgb(175, 98, 175);
 }
+li:hover{
+    background-color: rgb(226, 43, 104);
+    border: goldenrod 2px solid;
+}
 .navbar nav img{
     width: 60px;
 }
@@ -127,13 +131,6 @@ li{
 }
 .innerlink a{
     border-bottom: gold 3px solid;
-}
-.warn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* color: red; */
 }
 .list{
     margin-top: 80px;
