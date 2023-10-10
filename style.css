@@ -245,6 +245,10 @@ li:hover{
     }
     .links{
         font-size: 18px;
+        padding: 0 20px;
+    }
+    .links a{
+        padding: 0 20px;
     }
     .content{
         margin-top: 50px;
