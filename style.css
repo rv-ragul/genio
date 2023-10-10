@@ -144,7 +144,7 @@ li:hover{
     border-bottom: gold 3px solid;
 }
 .list{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .events{
     display: flex;
@@ -160,8 +160,19 @@ li:hover{
     text-align: center;
     gap: 30px;
 }
-.header{
-    margin-bottom: 40px;
+/* .header{
+    margin-bottom: 80px;
+} */
+.secheader{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.secheader h3{
+    color: rgb(255, 17, 148);
 }
 .links{
     padding: 0 10px;
@@ -184,6 +195,7 @@ li:hover{
     justify-content: center;
     align-items: center;
     /* margin-top: 10px; */
+    /* background-color: aquamarine; */
 }
 .image-slider img{
     width: 290px;
@@ -192,6 +204,14 @@ li:hover{
 .myslides{
     display: none;
     padding: 20px;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
 }
 .sponsors{
     margin-top: 50px;
@@ -213,10 +233,10 @@ li:hover{
     width: 300px;
     /* padding: 20px; */
 }
-.contacts{
-    /* background-color: #5680e9; */
+/* .contacts{
+    background-color: #5680e9;
     margin-top: 50px;
-}
+} */
 .team{
     display: flex;
     flex-direction: column;
