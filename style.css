@@ -8,6 +8,11 @@
 body{
     /* background-color: #20acf1; */
     background-color: purple;
+    /* background-image: url("https://www.pinterest.com/pin/471259548522541805/"); */
+    background-image: url("./images/bg-mobile.svg");
+    /* background-position: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: 50%;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -271,6 +276,12 @@ li:hover{
     }
 }
 @media (min-width: 610px) {
+    body{
+        background-image: url("./images/bg-desktop.svg");
+        /* background-size: 100% 100%; */
+        /* background-repeat: no-repeat; */
+        background-position: cover;
+    }
     .navbar nav img{
         margin-left: 10px;
         width: 120px;
