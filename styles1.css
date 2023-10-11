@@ -11,6 +11,7 @@ body{
     background-image: url("./images/bg-mobile.svg");
     /* background-color: #20acf1; */
     background-color: rgb(129, 40, 129);
+    background-position: 50%;
     font-size: 18px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -83,6 +84,7 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
     /* margin: 60px; */
 }
