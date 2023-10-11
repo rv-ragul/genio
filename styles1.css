@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 body{
+    background-color: purple;
+    /* background-image: url("https://www.pinterest.com/pin/471259548522541805/"); */
+    background-image: url("./images/bg-mobile.svg");
     /* background-color: #20acf1; */
     background-color: rgb(129, 40, 129);
     font-size: 18px;
@@ -142,6 +145,12 @@ li{
     }
 }
 @media (min-width: 600px) {
+    body{
+        background-image: url("./images/bg-desktop.svg");
+        /* background-size: 100% 100%; */
+        /* background-repeat: no-repeat; */
+        background-position: cover;
+    }
     .navbar nav img{
         margin-left: 10px;
         width: 120px;
