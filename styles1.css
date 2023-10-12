@@ -136,6 +136,13 @@ li{
 .org{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 @media (min-width: 400px) {
     .image img{
@@ -144,6 +151,10 @@ li{
     .image-slider img{
         width: 350px;
         /* border-radius: 8px; */
+    }
+    .name{
+        flex-direction: row;
+        gap: 40px;
     }
 }
 @media (min-width: 600px) {
@@ -168,6 +179,10 @@ li{
     }
     .round{
         max-width: 450px;
+    }
+    .name{
+        flex-direction: row;
+        gap: 90px;
     }
 }
 @media (min-width: 800px) {
@@ -207,7 +222,9 @@ li{
     .rules{
         width: 600px;
     }
-    
+    .name{
+        gap: 150px;
+    }
 }
 @media (min-width: 1000px) {
     .desc{
@@ -224,5 +241,8 @@ li{
     }
     .width1{
         width: 550px;
+    }
+    .name{
+        gap: 200px;
     }
 }
