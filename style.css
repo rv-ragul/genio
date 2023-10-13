@@ -127,7 +127,7 @@ li:hover{
 .register div img{
     width: 290px;
     border-radius: 20px;
-}
+}register
 .warn{
     display: flex;
     flex-direction: column;
@@ -147,6 +147,11 @@ li:hover{
 }
 .innerlink a{
     border-bottom: gold 3px solid;
+}
+.rte{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .list{
     margin-top: 50px;

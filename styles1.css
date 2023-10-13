@@ -139,6 +139,9 @@ li{
     justify-content: center;
     align-items: center;
 }
+.org h2{
+    color: gold;
+}
 .name{
     margin-top: 40px;
     display: flex;
